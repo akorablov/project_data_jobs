@@ -4,7 +4,7 @@ Welcome to my analysis of the data job market, focused on Data Analyst roles. Th
 
 The dataset, provided through [Luke Barousse's Python Course](https://lukebarousse.com/python), contains job postings from a few years ago, including information on job titles, salaries for US, locations, and required skills. While the data is not current (2023), the analysis still offers valuable insights into market dynamics and helps build a strong foundation for future exploration.
 
-# ⁉️ Areas of Exploration
+# ⁉️Areas of Exploration
 
 - Analyzing the top in-demand skills across the three most common data roles.
 
