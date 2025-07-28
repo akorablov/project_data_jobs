@@ -36,31 +36,41 @@ Before diving into the analysis, it's essential to ensure that the data is clean
 
 ## 📥 Importing and Cleaning the Data
 
-I begin by importing the necessary libraries and loading the dataset. Once loaded, I perform initial data cleaning tasks such as handling missing values, standardizing formats, and removing duplicates—ensuring the dataset is accurate, reliable, and analysis-ready.
+I start by importing the required libraries and loading the dataset. After that, I carry out the initial cleaning steps—handling missing values, standardizing formats, and removing duplicates—to make sure the data is accurate, consistent, and ready for analysis.
 
 ```python
-# Importing Libraries
-import ast
+#importing libraries
 import pandas as pd
 import seaborn as sns
 from datasets import load_dataset
-import matplotlib.pyplot as plt  
+import matplotlib.pyplot as plt
+import ast
 
-# Loading Data
-dataset = load_dataset('lukebarousse/data_jobs')
+#loading data
+dataset = load_dataset("lukebarousse/data_jobs")
 df = dataset['train'].to_pandas()
 
-# Data Cleanup
+#data cleaning
 df['job_posted_date'] = pd.to_datetime(df['job_posted_date'])
 df['job_skills'] = df['job_skills'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else x)
+
 ```
 
-## Filter US Jobs
+## 📚 Filtering Czechia and Slovakia-Based Roles
 
-To focus my analysis on the U.S. job market, I apply filters to the dataset, narrowing down to roles based in the United States.
+To focus my analysis on the Czechia and Slovakia job market, I apply filters to the dataset, narrowing down to roles based in the United States.
 
 ```python
-df_US = df[df['job_country'] == 'United States']
+df_CZ = df[df['job_country']=='Czechia'].copy()
+df_SK = df[df['job_country']=='Slovakia'].copy()
+
+#replacing inconsistent values
+df_CZ['job_location'] = df_CZ['job_location'].replace({'Czechia': 'Czechia Remote', 'Anywhere': 'Czechia Remote'})
+
+df_SK['job_location'] = df_SK['job_location'].replace({'Slovakia': 'Slovakia Remote', 'Anywhere': 'Slovakia Remote'})
+
+#concatinating the dataframes
+df_CZSK = pd.concat([df_CZ, df_SK], ignore_index=True)
 
 ```
 
