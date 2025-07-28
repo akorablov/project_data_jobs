@@ -34,7 +34,7 @@ To explore the Data Analyst job market in depth, I relied on a set of essential 
 
 Before diving into the analysis, it's essential to ensure that the data is clean, consistent, and ready for exploration. This section outlines the initial steps taken to load and prepare the dataset for meaningful insights.
 
-## 📥 Importing and Cleaning the Data
+## Importing and Cleaning the Data
 
 I start by importing the required libraries and loading the dataset. After that, I carry out the initial cleaning steps—handling missing values, standardizing formats, and removing duplicates—to make sure the data is accurate, consistent, and ready for analysis.
 
@@ -56,7 +56,7 @@ df['job_skills'] = df['job_skills'].apply(lambda x: ast.literal_eval(x) if pd.no
 
 ```
 
-## 📚 Filtering Czechia and Slovakia-Based Roles
+## Filtering Czechia and Slovakia-Based Roles
 
 To focus my analysis on the Czechia and Slovakia job market, I apply filters to the dataset, narrowing down to roles based in the United States.
 
@@ -74,34 +74,44 @@ df_CZSK = pd.concat([df_CZ, df_SK], ignore_index=True)
 
 ```
 
-# The Analysis
+# 🔍 The Analysis
 
-Each Jupyter notebook for this project aimed at investigating specific aspects of the data job market. Here’s how I approached each question:
+Each notebook in this project takes a closer look at different aspects of the data job market. Here's how I approached and explored each question step by step.
 
-## 1. What are the most demanded skills for the top 3 most popular data roles?
 
-To find the most demanded skills for the top 3 most popular data roles. I filtered out those positions by which ones were the most popular, and got the top 5 skills for these top 3 roles. This query highlights the most popular job titles and their top skills, showing which skills I should pay attention to depending on the role I'm targeting. 
+## 1. Most In-Demand Skills for Top Data Roles
 
-View my notebook with detailed steps here: [2_Skills_count.ipynb](PyProject_1/2_Skills_count.ipynb).
+To understand which skills are most valued in the data job market, I focused on the three most common roles. After identifying these roles based on job posting frequency, I extracted the top 5 skills associated with each. This helped reveal which technical abilities are most important depending on the specific role you're aiming for.
+
+
+You can view the full notebook with detailed steps here: [**Skills_count_CZSK**](PyProject_1/2_Skills_count_CZSK.ipynb)
 
 ### Visualize Data
 
 ```python
-fig, ax = plt.subplots(len(job_titles), 1)
+fig, ax = plt.subplots(len(job_titles),1)
 
+sns.set_theme(style='ticks')
 
-for i, job_title in enumerate(job_titles):
-    df_plot = df_skills_perc[df_skills_perc['job_title_short'] == job_title].head(5)[::-1]
-    sns.barplot(data=df_plot, x='skill_percent', y='job_skills', ax=ax[i], hue='skill_count', palette='dark:b_r')
+for i, job_title in enumerate (job_titles):
+    df_plot = df_skills_count[df_skills_count['job_title_short'] == job_title].head(5)
+    df_plot.plot(kind='barh', x='job_skills', y='skill_count', ax=ax[i], title=job_title)
+    ax[i].invert_yaxis()
+    ax[i].set_ylabel('')
+    ax[i].legend().set_visible(False)
 
+fig.suptitle('Counts of Top Skills in Job Postings', fontsize=15)
+fig.tight_layout(h_pad=0.5)
 plt.show()
+
 ```
 
-### Results
+### 📊 Results
 
-![Likelihood of Skills Requested in the US Job Postings](PyProject_1/3_Skills_trend.ipynb)
+![Likelihood of Skills Requested in Czechia and Slovakia Job Postings](PyProject_1/images/Skill_demand_czsk.png)
 
-*Bar graph visualizing the salary for the top 3 data roles and their top 5 skills associated with each.*
+
+*A bar chart showing the average salaries for the top 3 data roles, along with their 5 most in-demand skills.*
 
 ### Insights:
 
