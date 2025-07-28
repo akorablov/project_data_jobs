@@ -1,29 +1,34 @@
-# Project Background
+## Project Background
 
-Welcome to my analysis of the data job market, focused on Data Analyst roles. This project was driven by a personal goal to better understand job trends and skill demand in the analytics field.
+Welcome to my analysis of the data job market, focused on Data Analyst roles. This project was driven by a personal goal to better understand job trends and skill demand in the analytics field. One limitation of the dataset is the limited availability of salary information in Czechia and Slovakia. This may be influenced by cultural factors in the region, where salary discussions are generally considered private and not commonly shared in the workplace.
 
-The dataset, provided through [Luke Barousse's Python Course](https://lukebarousse.com/python), contains job postings from a few years ago, including information on job titles, salaries, locations, and required skills. While the data is not current, the analysis still offers valuable insights into market dynamics and helps build a strong foundation for future exploration.
+The dataset, provided through [Luke Barousse's Python Course](https://lukebarousse.com/python), contains job postings from a few years ago, including information on job titles, salaries for US, locations, and required skills. While the data is not current (2023), the analysis still offers valuable insights into market dynamics and helps build a strong foundation for future exploration.
 
-# The Questions
+## Areas of Exploration
 
-Below are the questions I want to answer in my project:
+- Analyzing the top in-demand skills across the three most common data roles.
 
-1. What are the skills most in demand for the top 3 most popular data roles?
-2. How are in-demand skills trending for Data Analysts?
-3. How well do jobs and skills pay for Data Analysts?
-4. What are the optimal skills for data analysts to learn? (High Demand AND High Paying) 
+- Tracking trends in skill demand specific to Data Analyst positions.
 
-# Tools I Used
+- Evaluating how different skills align with salary levels, based on available data.
 
-For my deep dive into the data analyst job market, I harnessed the power of several key tools:
+- Highlighting high-impact skills that combine strong demand with higher earning potential.
 
-- **Python:** The backbone of my analysis, allowing me to analyze the data and find critical insights.I also used the following Python libraries:
-    - **Pandas Library:** This was used to analyze the data. 
-    - **Matplotlib Library:** I visualized the data.
-    - **Seaborn Library:** Helped me create more advanced visuals. 
-- **Jupyter Notebooks:** The tool I used to run my Python scripts which let me easily include my notes and analysis.
-- **Visual Studio Code:** My go-to for executing my Python scripts.
-- **Git & GitHub:** Essential for version control and sharing my Python code and analysis, ensuring collaboration and project tracking.
+## Toolset Overview
+
+To explore the Data Analyst job market in depth, I relied on a set of essential tools and technologies:
+
+- **Python** was at the core of my analysis, helping me process data and uncover key insights. I used several powerful libraries:
+  - **Pandas** – for data cleaning, transformation, and analysis.
+  - **Matplotlib** – to create visualizations and better understand trends.
+  - **Seaborn** – to enhance visuals with more advanced and appealing charts.
+
+- **Jupyter Notebook** provided a convenient environment to write and run my Python code, while also documenting my thought process alongside the results.
+
+- **Visual Studio Code** served as my main editor for writing and testing scripts outside of the notebook.
+
+- **Git & GitHub** were essential for version control and sharing my work, making collaboration and progress tracking easy and transparent.
+
 
 # Data Preparation and Cleanup
 
