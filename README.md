@@ -1,20 +1,20 @@
-## Project Background
+# Project Background
 
 Welcome to my analysis of the data job market, focused on Data Analyst roles. This project was driven by a personal goal to better understand job trends and skill demand in the analytics field. One limitation of the dataset is the limited availability of salary information in Czechia and Slovakia. This may be influenced by cultural factors in the region, where salary discussions are generally considered private and not commonly shared in the workplace.
 
 The dataset, provided through [Luke Barousse's Python Course](https://lukebarousse.com/python), contains job postings from a few years ago, including information on job titles, salaries for US, locations, and required skills. While the data is not current (2023), the analysis still offers valuable insights into market dynamics and helps build a strong foundation for future exploration.
 
-## Areas of Exploration
+# ⁉️ Areas of Exploration
 
 - Analyzing the top in-demand skills across the three most common data roles.
 
 - Tracking trends in skill demand specific to Data Analyst positions.
 
-- Evaluating how different skills align with salary levels, based on available data.
+- Evaluating how different skills align with salary levels, based on available data (US).
 
-- Highlighting high-impact skills that combine strong demand with higher earning potential.
+- Highlighting high-impact skills that combine strong demand with higher earning potential (US).
 
-## Toolset Overview
+# ⚙️ Toolset Overview
 
 To explore the Data Analyst job market in depth, I relied on a set of essential tools and technologies:
 
@@ -30,13 +30,13 @@ To explore the Data Analyst job market in depth, I relied on a set of essential 
 - **Git & GitHub** were essential for version control and sharing my work, making collaboration and progress tracking easy and transparent.
 
 
-# Data Preparation and Cleanup
+# 🧹 Data Preparation and Cleanup
 
-This section outlines the steps taken to prepare the data for analysis, ensuring accuracy and usability.
+Before diving into the analysis, it's essential to ensure that the data is clean, consistent, and ready for exploration. This section outlines the initial steps taken to load and prepare the dataset for meaningful insights.
 
-## Import & Clean Up Data
+## 📥 Importing and Cleaning the Data
 
-I start by importing necessary libraries and loading the dataset, followed by initial data cleaning tasks to ensure data quality.
+I begin by importing the necessary libraries and loading the dataset. Once loaded, I perform initial data cleaning tasks such as handling missing values, standardizing formats, and removing duplicates—ensuring the dataset is accurate, reliable, and analysis-ready.
 
 ```python
 # Importing Libraries
