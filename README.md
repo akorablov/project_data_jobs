@@ -155,7 +155,7 @@ plt.show()
 
 ### Results
 
-![Trending Top Skills for Data Analyst in the CZSK](PyProject_1\images\skill_trend_DA_CZSK.png)  
+![Trending Top Skills for Data Analyst in the CZSK](PyProject_1/images/skill_trend_DA_CZSK.png) 
 *Graph illustrating monthly trends in key skills for data analyst positions across Czechia and Slovakia in 2023.*
 
 ### Key Insights:
@@ -191,7 +191,7 @@ plt.show()
 
 #### Results
 
-![Salary Distributions of Data Jobs in the US](PyProject_1\images\Salary_Distribution_in_US.png)  
+![Salary Distributions of Data Jobs in the US](PyProject_1/images/Salary_Distribution_in_US.png)
 *Box plot visualizing the salary distributions for the top 6 data job titles.*
 
 #### Key Insights:
@@ -225,7 +225,7 @@ plt.show()
 #### Results
 Here's the breakdown of the highest-paid & most in-demand skills for data analysts in the US:
 
-![The Highest Paid & Most In-Demand Skills for Data Analysts in the US](PyProject_1\images\Highest_Paid&Most_in-demand_Skills_DA_US.png)
+![The Highest Paid & Most In-Demand Skills for Data Analysts in the US](PyProject_1/images/Highest_Paid&Most_in-demand_Skills_DA_US.png)
 *Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data analysts in the US.*
 
 #### Insights:
