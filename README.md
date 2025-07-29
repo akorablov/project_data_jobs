@@ -239,7 +239,7 @@ Here's the breakdown of the highest-paid & most in-demand skills for data analys
 
 - There's a clear distinction between the skills that are highest paid and those that are most in-demand. Data analysts aiming to maximize their career potential should consider developing a diverse skill set that includes both high-paying specialized skills and widely demanded foundational skills.
 
-## 4. What are the most optimal skills to learn for Data Analysts?
+## 4. Highlighting high-impact skills that combine strong demand with higher earning potential (US)
 
 To identify the most optimal skills to learn ( the ones that are the highest paid and highest in demand) I calculated the percent of skill demand and the median salary of these skills. To easily identify which are the most optimal skills to learn. 
 
