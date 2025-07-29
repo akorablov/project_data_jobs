@@ -84,7 +84,7 @@ Each notebook in this project takes a closer look at different aspects of the da
 To understand which skills are most valued in the data job market, I focused on the three most common roles. After identifying these roles based on job posting frequency, I extracted the top 5 skills associated with each. This helped reveal which technical abilities are most important depending on the specific role you're aiming for.
 
 
-You can view the full notebook with detailed steps here: [**Skills_count_CZSK**](PyProject_1/2_Skills_count_CZSK.ipynb)
+📘 *You can view the full notebook with detailed steps here:*  [**Skills_count_CZSK**](PyProject_1/2_Skills_count_CZSK.ipynb)
 
 ### Visualize Data
 
@@ -106,24 +106,26 @@ plt.show()
 
 ```
 
-### 📊 Results
+### Results
 
 ![Likelihood of Skills Requested in Czechia and Slovakia Job Postings](PyProject_1/images/Skill_demand_czsk.png)
 
 
-*A bar chart showing the average salaries for the top 3 data roles, along with their 5 most in-demand skills.*
+*A bar chart showing top 3 data roles along with their 5 most in-demand skills*
 
-### Insights:
+### Key Insights:
 
-- SQL is the most requested skill for Data Analysts and Data Scientists, with it in over half the job postings for both roles. For Data Engineers, Python is the most sought-after skill, appearing in 68% of job postings.
-- Data Engineers require more specialized technical skills (AWS, Azure, Spark) compared to Data Analysts and Data Scientists who are expected to be proficient in more general data management and analysis tools (Excel, Tableau).
-- Python is a versatile skill, highly demanded across all three roles, but most prominently for Data Scientists (72%) and Data Engineers (65%).
+- SQL is the most consistently demanded skill across all three roles, topping the list for both Data Analysts (52%) and Data Engineers (67%), and ranking second for Data Scientists (48%). This underscores its foundational importance in data-related roles.
 
-## 2. How are in-demand skills trending for Data Analysts?
+- Python also shows strong cross-functional demand, especially for Data Engineers (60%) and Data Scientists (60%), reaffirming its versatility for both data manipulation and machine learning tasks.
 
-To find how skills are trending in 2023 for Data Analysts, I filtered data analyst positions and grouped the skills by the month of the job postings. This got me the top 5 skills of data analysts by month, showing how popular skills were throughout 2023.
+- Data Engineers are expected to possess more cloud-related and big data tools, with AWS (30%), Azure (30%), and Spark (32%) appearing prominently highlighting the infrastructure-heavy nature of this role. In contrast, Data Analysts are more often expected to be familiar with Excel (30%), Power BI (26%), and Tableau (21%), indicating an emphasis on business intelligence and reporting tools.
 
-View my notebook with detailed steps here: [3_Skills_Trend](3_Skills_Trend.ipynb).
+## 2. Tracking trends in skill demand specific to Data Analyst positions.
+
+To explore how demand for specific skills shifted over the year, I filtered job postings for Data Analyst positions and grouped the associated skills by posting month. This approach highlights the top 5 skills for each month, offering a clear view of changing priorities in the job market throughout 2023.
+
+📘 *See the full process in the notebook:* [**Skills Trend Analysis Notebook**](PyProject_1/3_Skills_trend_CZSK.ipynb)
 
 ### Visualize Data
 
