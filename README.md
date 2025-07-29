@@ -155,7 +155,8 @@ plt.show()
 
 ### Results
 
-![Trending Top Skills for Data Analyst in the CZSK](PyProject_1/images/skill_trend_DA_CZSK.png) 
+![Trending Top Skills for Data Analyst in the CZSK](PyProject_1/images/skill_trend_DA_CZSK.png)
+
 *Graph illustrating monthly trends in key skills for data analyst positions across Czechia and Slovakia in 2023.*
 
 ### Key Insights:
@@ -192,6 +193,7 @@ plt.show()
 #### Results
 
 ![Salary Distributions of Data Jobs in the US](PyProject_1/images/Salary_Distribution_in_US.png)
+
 *Box plot visualizing the salary distributions for the top 6 data job titles.*
 
 #### Key Insights:
@@ -226,6 +228,7 @@ plt.show()
 Here's the breakdown of the highest-paid & most in-demand skills for data analysts in the US:
 
 ![The Highest Paid & Most In-Demand Skills for Data Analysts in the US](PyProject_1/images/Highest_Paid&Most_in-demand_Skills_DA_US.png)
+
 *Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data analysts in the US.*
 
 #### Insights:
@@ -240,7 +243,7 @@ Here's the breakdown of the highest-paid & most in-demand skills for data analys
 
 To identify the most optimal skills to learn ( the ones that are the highest paid and highest in demand) I calculated the percent of skill demand and the median salary of these skills. To easily identify which are the most optimal skills to learn. 
 
-View my notebook with detailed steps here: [5_Optimal_Skills](PyProject_1\5_Optimal_Skills.ipynb).
+📘 *Explore the detailed steps in my notebook:* [5_Optimal_Skills](PyProject_1/5_Optimal_Skills.ipynb)
 
 #### Visualize Data
 
@@ -255,7 +258,8 @@ plt.show()
 
 #### Results
 
-![Most Optimal Skills for Data Analysts in the US](PyProject_1\images\Most_Optimal_Skills_DA_US_notcolored.png)    
+![Most Optimal Skills for Data Analysts in the US](PyProject_1\images\Most_Optimal_Skills_DA_US_notcolored.png)
+
 *A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US.*
 
 #### Insights:
@@ -290,7 +294,8 @@ plt.show()
 
 #### Results
 
-![Most Optimal Skills for Data Analysts in the US with Coloring by Technology](PyProject_1/images/Most_Optimal_Skills_DA_US.png)  
+![Most Optimal Skills for Data Analysts in the US with Coloring by Technology](PyProject_1/images/Most_Optimal_Skills_DA_US.png)
+
 *A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US with color labels for technology.*
 
 #### Insights:
