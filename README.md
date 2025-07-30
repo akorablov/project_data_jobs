@@ -270,15 +270,15 @@ plt.show()
 
 #### Key Insights:
 
-- The skill `Oracle` appears to have the highest median salary of nearly $97K, despite being less common in job postings. This suggests a high value placed on specialized database skills within the data analyst profession.
+- `Oracle` stands out with the highest median salary (~$97K) despite its relatively low presence in job postings. This suggests that niche, enterprise-level database skills are highly valued, likely due to their complexity and limited talent pool.
 
-- More commonly required skills like `Excel` and `SQL` have a large presence in job listings but lower median salaries compared to specialized skills like `Python` and `Tableau`, which not only have higher salaries but are also moderately prevalent in job listings.
+- `Python`, `Tableau`, and `SQL Server` strike an ideal balance between market demand and salary potential. Their positions in the top-right quadrant indicate that these tools are not only commonly required but also well-compensated. For aspiring or current analysts, investing in these skills could yield high returns.
 
-- Skills such as `Python`, `Tableau`, and `SQL Server` are towards the higher end of the salary spectrum while also being fairly common in job listings, indicating that proficiency in these tools can lead to good opportunities in data analytics.
+- Tools like `Excel` and `SQL` dominate job postings, particularly `SQL`, which appears in nearly 60% of listings. However, their median salaries are lower relative to more specialized skills. This reflects their status as foundational tools, essential, but not differentiators.
 
 ### Visualizing Different Techonologies
 
-Let's visualize the different technologies as well in the graph. We'll add color labels based on the technology (e.g., {Programming: Python})
+Let’s also visualize the different types of technologies in the graph by adding color labels based on their category (e.g., Programming: Python).
 
 #### Visualize Data
 
@@ -302,7 +302,7 @@ plt.show()
 
 ![Most Optimal Skills for Data Analysts in the US with Coloring by Technology](PyProject_1/images/Optimal_Skills_Color_DA_US.png)
 
-*A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US with color labels for technology.*
+*A scatter plot highlighting the most valuable skills for Data Analysts in the U.S., those that offer both high pay and strong demand, enhanced with color-coded labels by technology type.*
 
 #### Key Insights:
 
@@ -312,9 +312,9 @@ plt.show()
 
 - Analyst tools (colored green), including Tableau and Power BI, are prevalent in job postings and offer competitive salaries, showing that visualization and data analysis software are crucial for current data roles. This category not only has good salaries but is also versatile across different types of data tasks.
 
-# What I Learned
+# 🎓 What I Learned
 
-Throughout this project, I deepened my understanding of the data analyst job market and enhanced my technical skills in Python, especially in data manipulation and visualization. Here are a few specific things I learned:
+Throughout this project, I deepened my understanding of the data analyst job market and sharpened my technical skills in Python—especially in data manipulation and visualization. Below are some key takeaways:
 
 - **Advanced Python Usage**: Utilizing libraries such as Pandas for data manipulation, Seaborn and Matplotlib for data visualization, and other libraries helped me perform complex data analysis tasks more efficiently.
 - **Data Cleaning Importance**: I learned that thorough data cleaning and preparation are crucial before any analysis can be conducted, ensuring the accuracy of insights derived from the data.
