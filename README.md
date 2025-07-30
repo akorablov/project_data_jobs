@@ -212,7 +212,7 @@ plt.show()
 
 ### Highest Paid & Most Demanded Skills for Data Analysts
 
-I then narrowed my analysis to focus exclusively on Data Analyst roles. Specifically, I explored which skills are most in demand and which are associated with the highest salaries. To illustrate these insights, I used two separate bar charts.
+I then narrowed the analysis to focus solely on Data Analyst roles, examining which skills are most in demand and which correlate with the highest salaries. To present these insights clearly, I created two separate bar charts.
 
 #### Visualize Data
 
@@ -231,13 +231,13 @@ plt.show()
 ```
 
 #### Results
-Below is an overview of the top-paying and most sought-after skills for Data Analysts in the U.S.:
+Here’s a look at the top-paying and most in-demand skills for Data Analysts in the U.S.:
 
 ![The Highest Paid & Most In-Demand Skills for Data Analysts in the US](PyProject_1/images/Highest_Paid&Most_in-demand_Skills_DA_US.png)
 
 *Visual comparison of the most in-demand and highest-paying skills for U.S. Data Analysts using two bar charts.*
 
-#### Insights:
+#### Key Insights:
 
 - The top graph reveals that specialized technical skills such as dplyr, Bitbucket, and GitLab are linked to higher salaries, some exceeding $200K. This suggests that advanced technical expertise can significantly boost earning potential.
 
@@ -247,7 +247,7 @@ Below is an overview of the top-paying and most sought-after skills for Data Ana
 
 ## 4. Highlighting high-impact skills that combine strong demand with higher earning potential (US)
 
-To identify the most optimal skills to learn, those that are both highly paid and in high demand, I calculated the percentage of job postings requiring each skill and their corresponding median salaries. This helped highlight which skills offer the best balance of market demand and earning potential.
+To find the most valuable skills to learn, those that are both well-paid and in high demand, I calculated the percentage of job postings mentioning each skill along with their median salaries. This helped reveal which skills offer the best balance between market demand and earning potential.
 
 📘 *Explore the detailed steps in my notebook:* [5_Optimal_Skills](PyProject_1/5_Optimal_Skills.ipynb)
 
@@ -266,9 +266,9 @@ plt.show()
 
 ![Most Optimal Skills for Data Analysts in the US](PyProject_1/images/Optimal_Skills_DA_US_1.png)
 
-*A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US.*
+*A scatter plot showing the most valuable skills for Data Analysts in the U.S., those that offer both high pay and strong demand.*
 
-#### Insights:
+#### Key Insights:
 
 - The skill `Oracle` appears to have the highest median salary of nearly $97K, despite being less common in job postings. This suggests a high value placed on specialized database skills within the data analyst profession.
 
@@ -304,7 +304,7 @@ plt.show()
 
 *A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US with color labels for technology.*
 
-#### Insights:
+#### Key Insights:
 
 - The scatter plot shows that most of the `programming` skills (colored blue) tend to cluster at higher salary levels compared to other categories, indicating that programming expertise might offer greater salary benefits within the data analytics field.
 
@@ -321,7 +321,7 @@ Throughout this project, I deepened my understanding of the data analyst job mar
 - **Strategic Skill Analysis**: The project emphasized the importance of aligning one's skills with market demand. Understanding the relationship between skill demand, salary, and job availability allows for more strategic career planning in the tech industry.
 
 
-# Insights
+# Key Insights
 
 This project provided several general insights into the data job market for analysts:
 
