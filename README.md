@@ -306,15 +306,17 @@ plt.show()
 
 #### Key Insights:
 
-- The scatter plot shows that most of the `programming` skills (colored blue) tend to cluster at higher salary levels compared to other categories, indicating that programming expertise might offer greater salary benefits within the data analytics field.
+- Skills in the *programming* category (🔵), such as **Python**, **R**, and **Go**, are generally associated with higher median salaries. This suggests that programming proficiency is a high-value asset in the data analytics field, especially for roles involving scripting, automation, or advanced analytics.
 
-- The database skills (colored orange), such as Oracle and SQL Server, are associated with some of the highest salaries among data analyst tools. This indicates a significant demand and valuation for data management and manipulation expertise in the industry.
+- *Database* technologies (🟢), including **Oracle** and **SQL Server**, command some of the highest salaries despite being less frequently mentioned in job postings. This highlights their specialized nature and the premium placed on professionals with strong data management capabilities.
 
-- Analyst tools (colored green), including Tableau and Power BI, are prevalent in job postings and offer competitive salaries, showing that visualization and data analysis software are crucial for current data roles. This category not only has good salaries but is also versatile across different types of data tasks.
+- Tools in the *analyst_tools* category (🟠), such as **Excel**, **PowerPoint**, and **Word**, are more commonly listed but tend to offer lower median salaries. These tools are often considered foundational rather than differentiators, though **Tableau** and **Power BI** stand out by offering both solid salaries and strong demand.
+
+- Tools like **Tableau** and **Power BI** strike a favorable balance—frequently required in job postings and offering competitive salaries. Their utility in reporting and dashboarding workflows makes them essential across industries.
 
 # 🎓 What I Learned
 
-Throughout this project, I deepened my understanding of the data analyst job market and sharpened my technical skills in Python—especially in data manipulation and visualization. Below are some key takeaways:
+Throughout this project, I deepened my understanding of the data analyst job market and sharpened my technical skills in Python, especially in data manipulation and visualization. Below are some key takeaways:
 
 - **Advanced Python Usage**: Utilizing libraries such as Pandas for data manipulation, Seaborn and Matplotlib for data visualization, and other libraries helped me perform complex data analysis tasks more efficiently.
 - **Data Cleaning Importance**: I learned that thorough data cleaning and preparation are crucial before any analysis can be conducted, ensuring the accuracy of insights derived from the data.
