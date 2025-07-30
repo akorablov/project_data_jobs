@@ -194,19 +194,25 @@ plt.show()
 
 ![Salary Distributions of Data Jobs in the US](PyProject_1/images/Salary_Distribution_in_US.png)
 
-*Box plot visualizing the salary distributions for the top 6 data job titles.*
+*Salary distribution across six major data job titles in the U.S., shown as a box plot.*
 
 #### Key Insights:
 
-- There's a significant variation in salary ranges across different job titles. Senior Data Scientist positions tend to have the highest salary potential, with up to $600K, indicating the high value placed on advanced data skills and experience in the industry.
+- Clear Hierarchy in Compensation: There’s a distinct upward trend in salaries with increased seniority and specialization. Senior Data Scientist and Senior Data Engineer roles sit at the top of the salary spectrum, indicating that advanced expertise and leadership in data domains are highly valued.
 
-- Senior Data Engineer and Senior Data Scientist roles show a considerable number of outliers on the higher end of the salary spectrum, suggesting that exceptional skills or circumstances can lead to high pay in these roles. In contrast, Data Analyst roles demonstrate more consistency in salary, with fewer outliers.
+- Wide Salary Ranges for Senior Roles: The Senior Data Scientist and Senior Data Engineer positions exhibit not only high median salaries but also wide interquartile ranges (IQR) and a large number of outliers on the upper end. This suggests substantial variability in compensation, possibly influenced by factors like company size, location, and individual expertise.
 
-- The median salaries increase with the seniority and specialization of the roles. Senior roles (Senior Data Scientist, Senior Data Engineer) not only have higher median salaries but also larger differences in typical salaries, reflecting greater variance in compensation as responsibilities increase.
+- Stable and Predictable Analyst Salaries: Data Analyst and Senior Data Analyst positions show narrower distributions with fewer high-end outliers. This indicates more standardized pay across the industry for these roles, with limited spikes in compensation.
+
+- Engineers vs Scientists: While both engineering and science roles are well-compensated, the data suggests that Data Scientists (especially at the senior level) may have a slight edge in terms of upper salary limits hinting at strong demand for advanced analytical and machine learning skills.
+
+- Outliers Indicate High Potential: The presence of salaries beyond $400K,  even for mid-level roles like Data Scientist and Data Engineer, indicates that professionals in these positions can achieve very high earnings under certain conditions (e.g. working at top-tier tech firms or in niche areas).
+
+- Data Analyst Entry Point: With the lowest median and overall salary range, the Data Analyst role remains the most common entry point into the data profession. However, it offers a clear growth path into more lucrative roles as skills and responsibilities increase.
 
 ### Highest Paid & Most Demanded Skills for Data Analysts
 
-Next, I narrowed my analysis and focused only on data analyst roles. I looked at the highest-paid skills and the most in-demand skills. I used two bar charts to showcase these.
+I then narrowed my analysis to focus exclusively on Data Analyst roles. Specifically, I explored which skills are most in demand and which are associated with the highest salaries. To illustrate these insights, I used two separate bar charts.
 
 #### Visualize Data
 
@@ -217,7 +223,7 @@ fig, ax = plt.subplots(2, 1)
 # Top 10 Highest Paid Skills for Data Analysts
 sns.barplot(data=df_DA_top_pay, x='median', y=df_DA_top_pay.index, hue='median', ax=ax[0], palette='dark:b_r')
 
-# Top 10 Most In-Demand Skills for Data Analystsr')
+# Top 10 Most In-Demand Skills for Data Analysts')
 sns.barplot(data=df_DA_skills, x='median', y=df_DA_skills.index, hue='median', ax=ax[1], palette='light:b')
 
 plt.show()
@@ -225,19 +231,19 @@ plt.show()
 ```
 
 #### Results
-Here's the breakdown of the highest-paid & most in-demand skills for data analysts in the US:
+Below is an overview of the top-paying and most sought-after skills for Data Analysts in the U.S.:
 
 ![The Highest Paid & Most In-Demand Skills for Data Analysts in the US](PyProject_1/images/Highest_Paid&Most_in-demand_Skills_DA_US.png)
 
-*Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data analysts in the US.*
+*Visual comparison of the most in-demand and highest-paying skills for U.S. Data Analysts using two bar charts.*
 
 #### Insights:
 
-- The top graph shows specialized technical skills like `dplyr`, `Bitbucket`, and `Gitlab` are associated with higher salaries, some reaching up to $200K, suggesting that advanced technical proficiency can increase earning potential.
+- The top graph reveals that specialized technical skills such as dplyr, Bitbucket, and GitLab are linked to higher salaries—some exceeding $200K. This suggests that advanced technical expertise can significantly boost earning potential.
 
-- The bottom graph highlights that foundational skills like `Excel`, `PowerPoint`, and `SQL` are the most in-demand, even though they may not offer the highest salaries. This demonstrates the importance of these core skills for employability in data analysis roles.
+- The bottom graph highlights the most in-demand skills, including Excel, PowerPoint, and SQL. While these foundational tools may not command the highest salaries, they are essential for employability and remain widely requested in job postings.
 
-- There's a clear distinction between the skills that are highest paid and those that are most in-demand. Data analysts aiming to maximize their career potential should consider developing a diverse skill set that includes both high-paying specialized skills and widely demanded foundational skills.
+- Overall, there’s a clear distinction between the skills that offer the highest pay and those that are most sought after. To maximize career growth, data analysts should aim to build a balanced skill set that combines in-demand core tools with high-value technical proficiencies.
 
 ## 4. Highlighting high-impact skills that combine strong demand with higher earning potential (US)
 
