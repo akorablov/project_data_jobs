@@ -239,7 +239,7 @@ Below is an overview of the top-paying and most sought-after skills for Data Ana
 
 #### Insights:
 
-- The top graph reveals that specialized technical skills such as dplyr, Bitbucket, and GitLab are linked to higher salaries—some exceeding $200K. This suggests that advanced technical expertise can significantly boost earning potential.
+- The top graph reveals that specialized technical skills such as dplyr, Bitbucket, and GitLab are linked to higher salaries, some exceeding $200K. This suggests that advanced technical expertise can significantly boost earning potential.
 
 - The bottom graph highlights the most in-demand skills, including Excel, PowerPoint, and SQL. While these foundational tools may not command the highest salaries, they are essential for employability and remain widely requested in job postings.
 
@@ -247,7 +247,7 @@ Below is an overview of the top-paying and most sought-after skills for Data Ana
 
 ## 4. Highlighting high-impact skills that combine strong demand with higher earning potential (US)
 
-To identify the most optimal skills to learn ( the ones that are the highest paid and highest in demand) I calculated the percent of skill demand and the median salary of these skills. To easily identify which are the most optimal skills to learn. 
+To identify the most optimal skills to learn, those that are both highly paid and in high demand, I calculated the percentage of job postings requiring each skill and their corresponding median salaries. This helped highlight which skills offer the best balance of market demand and earning potential.
 
 📘 *Explore the detailed steps in my notebook:* [5_Optimal_Skills](PyProject_1/5_Optimal_Skills.ipynb)
 
