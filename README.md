@@ -312,7 +312,7 @@ plt.show()
 
 - Tools in the *analyst_tools* category (🟠), such as **Excel**, **PowerPoint**, and **Word**, are more commonly listed but tend to offer lower median salaries. These tools are often considered foundational rather than differentiators, though **Tableau** and **Power BI** stand out by offering both solid salaries and strong demand.
 
-- Tools like **Tableau** and **Power BI** strike a favorable balance—frequently required in job postings and offering competitive salaries. Their utility in reporting and dashboarding workflows makes them essential across industries.
+- Tools like **Tableau** and **Power BI** strike a favorable balance, frequently required in job postings and offering competitive salaries. Their utility in reporting and dashboarding workflows makes them essential across industries.
 
 # 🎓 What I Learned
 
