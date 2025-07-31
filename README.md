@@ -2,7 +2,7 @@
 
 Welcome to my exploration of the data job market, with a particular focus on Data Analyst roles. This project was inspired by a personal goal: to better understand the trends, opportunities, and in-demand skills shaping the analytics profession.
 
-TThe dataset used for this analysis comes from [Luke Barousse's Python Course](https://lukebarousse.com/python) and includes job postings collected a few years ago. It provides valuable information on job titles, required skills, locations, and salary data—though salary figures are mostly available for positions in the United States. One notable limitation is the limited availability of salary data for Czechia and Slovakia, which restricts regional comparisons.
+TThe dataset used for this analysis comes from [Luke Barousse's Python Course](https://lukebarousse.com/python) and includes job postings collected a few years ago. It provides valuable information on job titles, required skills, locations, and salary data though salary figures are mostly available for positions in the United States. One notable limitation is the limited availability of salary data for Czechia and Slovakia, which restricts regional comparisons.
 
 Although the dataset is not up to date (the latest data is from around 2023), it still offers meaningful insights into broader market patterns and skill demand. This analysis serves as a strong starting point for anyone looking to understand the data analytics landscape and lays the groundwork for more targeted and current investigations in the future.
 
@@ -322,7 +322,7 @@ This project provided a valuable opportunity to deepen my understanding of the d
 
 - **Proficient Use of Python for Data Analysis**: I refined my skills in leveraging core Python libraries such as **Pandas** for data manipulation, **Seaborn** and **Matplotlib** for effective data visualization. These tools enabled me to explore, analyze, and communicate insights from complex datasets with greater confidence and efficiency.
 
-- **The Critical Role of Data Cleaning**: One of the most important takeaways was the significance of rigorous data cleaning. Preparing the dataset—resolving inconsistencies, handling missing values, and standardizing formats—proved to be an essential step in ensuring the reliability and validity of the analysis.
+- **The Critical Role of Data Cleaning**: One of the most important takeaways was the significance of rigorous data cleaning. Preparing the dataset, resolving inconsistencies, handling missing values, and standardizing formats, proved to be an essential step in ensuring the reliability and validity of the analysis.
 
 - **Market-Driven Skill Evaluation**: The project highlighted the strategic value of understanding how technical skills map to market trends. Analyzing the correlation between specific tools, job availability, and salary levels helped me appreciate the importance of aligning my skillset with industry demand to make informed decisions about professional growth.
 
