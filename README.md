@@ -2,7 +2,7 @@
 
 Welcome to my exploration of the data job market, with a particular focus on Data Analyst roles. This project was inspired by a personal goal: to better understand the trends, opportunities, and in-demand skills shaping the analytics profession.
 
-TThe dataset used for this analysis comes from [Luke Barousse's Python Course](https://lukebarousse.com/python) and includes job postings collected a few years ago. It provides valuable information on job titles, required skills, locations, and salary data though salary figures are mostly available for positions in the United States. One notable limitation is the limited availability of salary data for Czechia and Slovakia, which restricts regional comparisons.
+The dataset used for this analysis comes from [Luke Barousse's Python Course](https://lukebarousse.com/python) and includes job postings collected a few years ago. It provides valuable information on job titles, required skills, locations, and salary data though salary figures are mostly available for positions in the United States. One notable limitation is the limited availability of salary data for Czechia and Slovakia, which restricts regional comparisons.
 
 Although the dataset is not up to date (the latest data is from around 2023), it still offers meaningful insights into broader market patterns and skill demand. This analysis serves as a strong starting point for anyone looking to understand the data analytics landscape and lays the groundwork for more targeted and current investigations in the future.
 
