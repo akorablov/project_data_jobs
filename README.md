@@ -60,7 +60,7 @@ df['job_skills'] = df['job_skills'].apply(lambda x: ast.literal_eval(x) if pd.no
 
 ## Filtering Czechia and Slovakia-Based Roles
 
-To focus my analysis on the Czechia and Slovakia job market, I apply filters to the dataset, narrowing down to roles based in the United States.
+To focus my analysis on the Czech and Slovak job markets, I apply filters to the dataset, narrowing it down to roles based in these countries.
 
 ```python
 df_CZ = df[df['job_country']=='Czechia'].copy()
@@ -111,7 +111,6 @@ plt.show()
 ### Results
 
 ![Likelihood of Skills Requested in Czechia and Slovakia Job Postings](PyProject_1/images/Skill_demand_czsk.png)
-
 
 *A bar chart showing top 3 data roles along with their 5 most in-demand skills*
 
@@ -171,7 +170,7 @@ plt.show()
 
 ## 3. Evaluating how different skills align with salary levels, based on available data (US)
 
-To uncover which roles and skills command the highest salaries, I focused on job postings from the United States and analyzed their median salaries. I began by examining salary distributions for common roles - **Data Scientist**, **Data Engineer**, and **Data Analyst** - to understand which positions tend to offer the most competitive pay.
+To uncover which roles and skills command the highest salaries, I focused on job postings from the United States and analyzed their median salaries. I began by examining salary distributions for common roles **Data Scientist**, **Data Engineer**, and **Data Analyst**, to understand which positions tend to offer the most competitive pay.
 
 📘 *Detailed analysis available in the notebook:* [4_Salary_Analysis](PyProject_1/4.Salary_analysis.ipynb)
 
